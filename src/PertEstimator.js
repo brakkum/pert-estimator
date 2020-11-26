@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./pert.css";
 
 function PertEstimator() {
 
@@ -40,7 +41,7 @@ function PertEstimator() {
   }
 
   return (
-    <div>
+    <div className="pert-estimator">
       <h1>PERT Estimator</h1>
       <p>Fill in the fields with your hour estimate for the task at hand</p>
       <div className="inputs">
